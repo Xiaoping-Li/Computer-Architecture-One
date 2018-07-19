@@ -1,0 +1,14 @@
+# div.ls8
+
+10011001 # LDI R0,8  Load R0 with value 8
+00000000
+00001000
+10011001 # LDI R1,2  Load R1 with value 2
+00000001
+00000000
+10101011 # DIV R0,R1 Subtract R0 - R1, storing result in R0
+00000000
+00000001
+01000011 # PRN R0    Print value in R0
+00000000
+00000001 # HLT       Halt
